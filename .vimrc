@@ -21,11 +21,18 @@ Plugin 'scrooloose/syntastic'
 "Plugin 'nvie/vim-flake8'
 Plugin 'kien/ctrlp.vim'
 Plugin 'jistr/vim-nerdtree-tabs'
+<<<<<<< HEAD
 Plugin 'honza/Vim-snippets'
 
 " Color schemes
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'nanotech/jellybeans.vim'
+=======
+
+" Color schemes
+Plugin 'altercation/vim-colors-solarized'
+
+>>>>>>> 5f3b8763b4b66ee5c381c83f46e569c9c77976f3
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -117,6 +124,15 @@ noremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
 
+<<<<<<< HEAD
+=======
+" Wylaczenie strzalek
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+>>>>>>> 5f3b8763b4b66ee5c381c83f46e569c9c77976f3
 " Quick quit command - zamykanie okien przez LEADER (w tym wypadku ,)+e
 noremap <Leader>e :quit<CR>  " Quit current window
 noremap <Leader>E :qa!<CR>   " Quit all windows
